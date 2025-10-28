@@ -15,6 +15,7 @@ const App = () => {
     <Card title='Star wars' rating={5} iscool={true} actors={[{name:'actors'}]} />  
     <Card title='Avatar'/>  
     <Card title='The lion king'/>  
+    <Card title='Inception'/>
     
  
   </div>
