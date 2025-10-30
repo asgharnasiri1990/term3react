@@ -10,7 +10,7 @@ const Card = ({title}) => {
 }
 
 const App = () => {
-const[]=useState()
+// const[hasLiked, setHasLiked]=useState(initialState, true);
 
   return(
     <div className="card-container">
