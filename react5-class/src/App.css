@@ -1,0 +1,6 @@
+.card{
+  display: flex;
+  flex-direction: row;
+  background-color: #d77708;
+  font-size: 32px;
+}
