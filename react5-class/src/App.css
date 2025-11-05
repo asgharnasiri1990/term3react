@@ -1,6 +1,12 @@
-.card{
-  display: flex;
-  flex-direction: row;
+.card {
+  display: flex;               /* make title and description in one row */
+  /* justify-content: center;     center them horizontally */
+  align-items: center;         /* align vertically in the middle */
+  gap: 20px;                   /* space between title and description */
+
   background-color: #d77708;
   font-size: 32px;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
 }
