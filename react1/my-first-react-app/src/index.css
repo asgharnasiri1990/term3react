@@ -8,7 +8,7 @@
 
 body{
   padding: 40px;
-  background-color: #151515;
+  background-color: #a76106;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -27,10 +27,10 @@ h2{
   margin: 0 auto;
 }
 .card{
-      border: 1px solid #4b5362;
+      border: 1px solid #4b625e;
       padding: 20px;
       margin: 10px;
-      background-color: #31363f;
+      background-color: #2d610a;
       border-radius: 10px;
       min-height: 100px;
     
