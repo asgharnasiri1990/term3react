@@ -1,11 +1,13 @@
-import Counter from "./Counter";
+import Job from "./Job"
 
-function App(){
+const App = () => {
   return (
-    <div style={{margin: "50px", padding: "100px 200px"}}>
-      <Counter />
+    <div>
+      <Job position="boss" salary={1000}  company="google"/>
+      <Job position="boss2" salary="350"  company="apple"/>
+      <Job position="boss3" salary="250"  company="amazone"/>
     </div>
+
   )
 }
-
 export default App;

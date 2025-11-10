@@ -16,7 +16,7 @@ const Card = ({title}) => {
       <h2>{title}<br/> {count || null}</h2>
 
       <button onClick={() => { setHasLiked(!hasLiked)}}>
-        {hasLiked? '❤️' : '🤍'}
+        {hasLiked? 'liked' : 'not'}
       </button>
     </div>
   )

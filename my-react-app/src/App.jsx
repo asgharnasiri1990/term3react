@@ -23,7 +23,7 @@ export default function App() {
 
   return (
     <div className="h-screen flex flex-col items-center justify-start bg-gray-100 p-4">
-      <h1 className="text-3xl font-bold mb-4">UType Clone - تمرین تایپ</h1>
+      <h1> className="text-3xl font-bold mb-4" UType Clone - </h1>
 
       <LessonSelector
         lessons={lessons}
