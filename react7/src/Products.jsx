@@ -1,6 +1,6 @@
 import React from "react";
 
-const Component = (props) => {
+const Products = (props) => {
     return (
         <div  className="card">
             <img src={props.image} alt={props.title} />
@@ -11,4 +11,4 @@ const Component = (props) => {
     );
 }
 
-export default Component;
+export default Products;
