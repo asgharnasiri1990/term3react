@@ -8,8 +8,8 @@ import { Navigation, Pagination } from "swiper/modules";
 
 function App() {
   return (
-    <div className="swiper-wrapper-container">
-      <Swiper
+    <div className="container">
+      {/* <Swiper
         slidesPerView={3}
         spaceBetween={20}
         loop={true}
@@ -19,47 +19,47 @@ function App() {
         style={{ width: "90%", margin: "auto" }}
       >
 
-        <SwiperSlide>
+        <SwiperSlide> */}
           <Products
             title="خرید اکانت کانوا با قیمت مناسب"
             price="59000"
-            image="/person1.webp"
+            image="person1.webp"
           />
-        </SwiperSlide>
+        {/* </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide> */}
           <Products
             title="خرید اکانات اسپاتیفای"
             price="88000"
-            image="/person2.webp"
+            image="person2.webp"
           />
-        </SwiperSlide>
+        {/* </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide> */}
           <Products
             title="خرید اکانت کانوا با قیمت مناسب"
             price="24000"
-            image="/person3.webp"
+            image="person3.webp"
           />
-        </SwiperSlide>
+        {/* </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide> */}
           <Products
             title="خرید اکانت"
             price="12000"
-            image="/person4.webp"
+            image="person4.webp"
           />
-        </SwiperSlide>
+        {/* </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide> */}
           <Products
             title="خرید اکانت"
             price="12000"
-            image="/person4.webp"
+            image="person4.webp"
           />
-        </SwiperSlide>
+        {/* </SwiperSlide>
 
-      </Swiper>
+      </Swiper> */}
     </div>
   )
 }
