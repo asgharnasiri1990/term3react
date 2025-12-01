@@ -8,13 +8,13 @@ function Counter() {
     return (
 
         <div>
-            {count > 0 ? <h1 style={{ marginLeft: "220px" }}> {count}</h1> : <h1 style={{ marginLeft: "155px" }}> {count}</h1>}
+            {count > 0 ? <h1 style={{ marginLeft: "180px" }}> {count}</h1> : <h1 style={{ marginLeft: "125px" }}> {count}</h1>}
 
-            <button style={{ color: "green" }} onClick={() => { setCount(count + 1) }}>Increase likes + {count} </button>
+            {count<20 ? <button style={{ color: "green" }} onClick={() => { setCount(count + 1) }}>Increase Age   </button>:<button style={{ color: "green" }} onClick={() => { setCount(count + 1) }}>بمیر دیگه   ):</button>}
 
-            {count > 0 && <button onClick={() => { setCount(0) }}>Reset likes</button>}
+            {count > 0 && <button onClick={() => { setCount(0) }}>Reset Age</button>}
 
-            {count > 0 ? <button style={{ color: "red" }} onClick={() => { setCount(count - 1) }}>Decrease likes - {count} </button> : <button>Decrease Age -</button>}
+            {count > 0 ? <button style={{ color: "red" }} onClick={() => { setCount(count - 1) }}>Decrease Age  </button> : <button>Decrease Age </button>}
 
         </div >
 
@@ -24,5 +24,3 @@ function Counter() {
 }
 
 export default Counter;
-
-{toggle=true && <h1></h1> }

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-left: 75px;
+  /* padding-right: 10px; */
+  margin: 10px;
+}
+
+.div {
+  background-color: rgb(2, 66, 45);
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: rgb(212, 87, 3);
+  gap: 10px;
+
+}
+
+.card img{
+  height: 300px;
+  border-radius: 40px;
+}
