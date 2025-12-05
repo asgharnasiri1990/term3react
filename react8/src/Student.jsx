@@ -10,7 +10,6 @@ const Student = (props) => {
 
 
     return (
-
         <div className="card">
             <img src={props.photo} alt="" />
             <h3> Name: {props.name} </h3>
