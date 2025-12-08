@@ -5,10 +5,8 @@ const Student = (props) => {
 
     const increaseLikes = () => (
         setLikes(Likes + 1)
-
     )
-
-
+    
     return (
         <div className="card">
             <img src={props.photo} alt="" />
