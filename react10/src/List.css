@@ -1,0 +1,26 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 200px;
+}
+
+.reg {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 20px;
+    
+}
+
+.Signin {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainList-button {
+
+    margin: 20px;
+    background-color: rgb(69, 8, 8);
+
+}
