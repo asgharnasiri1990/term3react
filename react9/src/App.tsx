@@ -1,17 +1,17 @@
-// import ListGroup from "./components/ListGroup";
+import ListGroup from "./components/ListGroup";
 
-// function App() {
-//  let items = ['NYC', 'LA', 'Tokyo', 'London', 'Tehran']
-// const handleSelectItem=(item:string)=>{
-//   console.log(item);
-// }
+function App() {
+ let items = ['NYC', 'LA', 'Tokyo', 'London', 'Tehran']
+const handleSelectItem=(item:string)=>{
+  console.log(item);
+}
 
-//   return (
-//   <div> 
-//     <ListGroup items={items} heading="cities :" onSelectItem={handleSelectItem} />
-//     </div>)
+  return (
+  <div> 
+    <ListGroup items={items} heading="cities :" onSelectItem={handleSelectItem} />
+    </div>)
 
-// }
+}
 
 
 
