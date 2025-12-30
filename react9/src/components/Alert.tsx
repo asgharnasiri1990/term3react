@@ -17,7 +17,7 @@ const Alert = ({ children,onClose }: Props) => {
 
             </button>
         </div>
-    )
+    ) 
 }
 
 export default Alert; 
