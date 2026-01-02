@@ -4,11 +4,14 @@ interface Props {
 
 
 const Status = ({ isOnline }: Props) => {
-    
+
     const color = isOnline ? "green" : "red";
     return (
         <p style={{ color }}>
-            {isOnline ? "🟢 Online" : "🔴 Offline"}
+            {isOnline
+                ? "🟢 You are currently Online !"
+                : "🔴 You are currently Offline !"
+            }
         </p>
 
     )
