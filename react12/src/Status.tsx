@@ -15,6 +15,6 @@ const Status = ({ isOnline }: Props) => {
         </p>
 
     )
-}
+};
 
 export default Status;

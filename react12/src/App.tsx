@@ -1,9 +1,10 @@
 import { useState } from "react";
 import Status from "./Status";
-
+import "./App.css";
 function App() {
   const [isOnline, setIsOnline] = useState(true)
 
+  
   const toggleStatus = () => { setIsOnline(prev => !prev) }
 
   const btnColor = isOnline ? "btn btn-success" : "btn btn-danger"
