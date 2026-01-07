@@ -7,7 +7,7 @@ function App() {
     <>
       <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolore maxime dignissimos debitis</span>
       {!view && (
-        <span style={{ cursor: "pointer" }} onClick={() => setView(true)}>...view more</span>
+        <span style={{ cursor: "pointer",fontSize:"24px" }} onClick={() => setView(true)}>...view more</span>
       )}
 
       {view && (
@@ -17,8 +17,10 @@ function App() {
           temporibus! Architecto nobis provident mollitia esse illum quidem quod, cupiditate consequuntur
           perferendis minima incidunt optio est quam expedita quas fuga officia!
         </span>
-      )
-      }
+      )}
+      {view &&
+        <span style={{ cursor: "pointer" ,fontSize: "24px"}} onClick={() => setView(false)}>...view less</span>}
+      
     </>
 
   )
