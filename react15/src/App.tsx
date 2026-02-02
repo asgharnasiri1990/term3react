@@ -1,24 +1,74 @@
-import { useState } from "react";
+import Form from "./Form";
 
-function App() {
-
-  // const [task, setTask] = useState([tasks, value])
-
-  // const [value, setValue] = useState("")
-
-  return (
-    <>
-
-      <input placeholder="enter a task" />
-<div>
-
-      <button >submit</button>
-</div>
-
-      <h1>Tasks:</h1>
-
-    </>
-  )
-};
-
+function App(){
+    return(
+        <div>
+        <Form />
+        </div>
+        
+    )
+}
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import { useState } from "react";
+
+// function App() {
+//   const [inputValue, setInputValue] = useState("");      // user typing
+//   const [submittedText, setSubmittedText] = useState(""); // text shown after Submit
+
+//   const handleSubmit = () => {
+//     setSubmittedText(inputValue);  // move input → submitted
+//     setInputValue("");             // clear input field
+//   };
+
+//   return (
+//     <>
+//       <h2>Submitted: {submittedText}</h2>
+
+//       <input
+//         type="text"
+//         value={inputValue}
+//         onChange={(e) => setInputValue(e.target.value)}
+//         placeholder="Type something..."
+//       />
+
+//       <button onClick={handleSubmit}>Submit</button>
+//     </>
+//   );
+// }
+
+// export default App;
