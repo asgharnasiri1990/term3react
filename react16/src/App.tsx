@@ -7,7 +7,7 @@ function App() {
 const handleSubmit=()=>{
   if (!input ) return;
   setText(input);
-  setInput("")
+  setInput("") 
 }
 
   return (
