@@ -7,7 +7,7 @@ function App() {
   const [isOnline, setIsOnline] = useState(false)
   
   const handleView = () => {
-    isOnline && "please log in"
+    isOnline && "Yiu are not online, please go online to view more"
   }
 
 
