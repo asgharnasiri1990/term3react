@@ -15,14 +15,14 @@ const ffSize={fontSize:"24px",color:"green"}
 
   return(
 <div>
-<span style={!showMore ? (fSize):(ffSize)}>Lorem ipsum dolor acceler </span>
+<span style={!showMore ? (fSize):(ffSize)}>if you Click on go offline you can't reat </span>
 
 {!showMore&&(
 <span style={{cursor:"pointer"}} onClick={viewMore}>...View More</span>
 )}
 
 {showMore&&(
-  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis magni
+  <span>click on GO ONLINE to Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis magni
      ad commodi libero perferendis officia perspiciatis quam,
      sapiente a dignissimos, obcaecati vero quasi quidem sint suscipit
       repudiandae at repellendus error!
